@@ -1,6 +1,6 @@
 <?php
 
-	$myserver = $_ENV['host'];
+	$myserver = "rg-masson-postgre.postgres.database.azure.com";
 	$myusername = $_ENV['myusername'];
 	$mypassword = $_ENV['password'];
 	$mydb = "mybase";
