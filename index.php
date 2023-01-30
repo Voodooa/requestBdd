@@ -1,8 +1,5 @@
 <?php
 
-$conn = pg_connect("host=rg-masson-postgre.postgres.database.azure.com port=5432 dbname=postgres@rg-masson-postgre.postgres.database.azure.com user=$_ENV['mydbuser@rg-masson-postgre.postgres.database.azure.com'] password=$_ENV['db_password']";
-);
-
 	$myserver = $_ENV['host'];
 	$myusername = $_ENV['myusername'];
 	$mypassword = $_ENV['password'];
